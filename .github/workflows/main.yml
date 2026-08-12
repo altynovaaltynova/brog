@@ -40,7 +40,7 @@ jobs:
 
       - name: Wait before next run
         if: success()
-        run: sleep 625
+        run: sleep 635
 
       - name: Trigger next run
         if: always()
